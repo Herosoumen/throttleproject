@@ -6,7 +6,7 @@ To serve all user details through one endpoint(API)
 
 No need to install any db or thirtd party apps,here I'm using inbuilt dbsqlite3 database
 
-*Install requirements
+* Install requirements
 
 pip3 install -r requirements.txt
 
