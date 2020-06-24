@@ -25,7 +25,7 @@ SECRET_KEY = 'qc1+czrc)-=d*+-$!eqw0z-u%7gzyjh32ccp)&#d_$n__y=4o-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['throttlelab.herokuapp.com']
 
 
 # Application definition
