@@ -10,7 +10,12 @@ No need to install any db or thirtd party apps,here I'm using inbuilt dbsqlite3 
 
 pip3 install -r requirements.txt
 
-* To run:
+* To run migrations:
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py migrate --run-syncdb
+
 
 python3 manage.py runserver
 open localhost:8000 in browser
