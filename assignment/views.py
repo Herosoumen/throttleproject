@@ -1,11 +1,14 @@
+# drf imports
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
+# django imports
 from datetime import datetime
 
-
+#app level imports
 from .models import User, ActivityPeriod
+from .utils import query_debugger
 
 # class UserDataAPIView(APIView):
 # 	def get(self, request, format = None):
@@ -38,7 +41,7 @@ class UserDataAPIView(APIView):
 		data_list = []
 		data = {}
 		qs = User.objects.values_list('id','real_name','tz','profile__start_time','profile__end_time')
-		for q in qs:
+		for q in qs.iterator():
 			if not bool(data):
 				data["id"] = q[0]
 				data["real_name"]: q[1]
