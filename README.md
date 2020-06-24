@@ -10,7 +10,7 @@ No need to install any db or thirtd party apps,here I'm using inbuilt dbsqlite3 
 
 pip3 install -r requirements.txt
 
-# To run migrations:
+#### To run migrations:
 
 * python3 manage.py makemigrations
 
