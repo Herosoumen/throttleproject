@@ -4,9 +4,9 @@ To serve all user details through one endpoint(API)
 
 ## Installation
 
-For psycopg2:
+####For psycopg2:
 
-sudo apt-get install python3-setuptools
+* sudo apt-get install python3-setuptools
 
 #### Install requirements
 
