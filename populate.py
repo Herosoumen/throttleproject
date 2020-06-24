@@ -31,16 +31,16 @@ def populate(n):
                                         tz = tz ,is_active = True)
             user_record.set_password("soumen123")
             user_record.save()
-        
-            act = ActivityPeriod(profile = user_record,start_time = start_time,end_time = start_time + timedelta(hours=5))
-            act.save()
 
-            act = ActivityPeriod(profile = user_record,start_time = start_time,end_time = start_time + timedelta(hours=3))
-            act.save()
+            act1 = ActivityPeriod(user = user_record,start_time = start_time,end_time = start_time + timedelta(hours=5))
+            act1.save()
 
-            act = ActivityPeriod(profile = user_record,start_time = start_time,end_time = start_time + timedelta(hours=1))
-            act.save()
+            act2 = ActivityPeriod(user = user_record,start_time = start_time,end_time = start_time + timedelta(hours=3))
+            act2.save()
+
+            act3 = ActivityPeriod(user = user_record,start_time = start_time,end_time = start_time + timedelta(hours=1))
+            act3.save()
 
 
 
-populate(100)
+populate(10)
