@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'assignment.apps.AssignmentConfig',
     'rest_framework',
-    #third part app
-    'timezone_field',
+
 ]
 
 MIDDLEWARE = [
