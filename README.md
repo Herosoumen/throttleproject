@@ -4,7 +4,9 @@ To serve all user details through one endpoint(API)
 
 ## Installation
 
-No need to install any db or thirtd party apps,here I'm using inbuilt dbsqlite3 database
+For psycopg2:
+
+sudo apt-get install python3-setuptools
 
 #### Install requirements
 
