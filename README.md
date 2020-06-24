@@ -27,6 +27,7 @@ open localhost:8000 in browser
 The project divided into two folders:
 ```
 * throttllab for global label settings
+
 * assignment for core app level configuration
 ```
 
