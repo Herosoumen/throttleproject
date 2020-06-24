@@ -31,7 +31,7 @@ from .models import User, ActivityPeriod
 # 		return Response({"ok":True,"members":members,}, status=status.HTTP_200_OK)
 
 
-# more pythonic way 
+# more pythonic  and optimized way 
 class UserDataAPIView(APIView):
 	""" reduce the time complexity to O(n) and optimized database query"""
 	def get(self, request, format = None):
