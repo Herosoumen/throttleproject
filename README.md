@@ -1,12 +1,12 @@
 # Throttle Project
 
-To serve all user details through one endpoint(API)
+To serve all user details through one endpoint(API). If you want to populate the database with dummy data then run python populate.py.To check database query and response time use querydebugger,which is in utils.py file
 
 ## Installation
 
 #### For psycopg2:
 
-* sudo apt-get install python3-setuptools
+* sudo apt install postgresql postgresql-contrib
 
 #### Install requirements
 
