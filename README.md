@@ -17,8 +17,6 @@ To serve all user details through one endpoint(API). If you want to populate the
 
 #### To run migrations:
 
-* python3 manage.py makemigrations
-
 * python3 manage.py migrate
 
 * python3 manage.py migrate --run-syncdb
